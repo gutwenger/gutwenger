@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gutwenger/gutwenger.github.io.git/static/css/main.52983c03.chunk.css",
-    "main.js": "/gutwenger/gutwenger.github.io.git/static/js/main.ab102ae6.chunk.js",
-    "main.js.map": "/gutwenger/gutwenger.github.io.git/static/js/main.ab102ae6.chunk.js.map",
-    "runtime-main.js": "/gutwenger/gutwenger.github.io.git/static/js/runtime-main.34ea4ddd.js",
-    "runtime-main.js.map": "/gutwenger/gutwenger.github.io.git/static/js/runtime-main.34ea4ddd.js.map",
-    "static/js/2.935b250f.chunk.js": "/gutwenger/gutwenger.github.io.git/static/js/2.935b250f.chunk.js",
-    "static/js/2.935b250f.chunk.js.map": "/gutwenger/gutwenger.github.io.git/static/js/2.935b250f.chunk.js.map",
-    "index.html": "/gutwenger/gutwenger.github.io.git/index.html",
-    "static/css/main.52983c03.chunk.css.map": "/gutwenger/gutwenger.github.io.git/static/css/main.52983c03.chunk.css.map",
-    "static/js/2.935b250f.chunk.js.LICENSE.txt": "/gutwenger/gutwenger.github.io.git/static/js/2.935b250f.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/gutwenger/gutwenger.github.io.git/static/media/IMG_6748.68c9c8f2.JPG",
-    "static/media/gut2commerce.ad365293.gif": "/gutwenger/gutwenger.github.io.git/static/media/gut2commerce.ad365293.gif"
+    "main.css": "/gutwenger/static/css/main.6fe92920.chunk.css",
+    "main.js": "/gutwenger/static/js/main.c4260ee3.chunk.js",
+    "main.js.map": "/gutwenger/static/js/main.c4260ee3.chunk.js.map",
+    "runtime-main.js": "/gutwenger/static/js/runtime-main.b6be9e7b.js",
+    "runtime-main.js.map": "/gutwenger/static/js/runtime-main.b6be9e7b.js.map",
+    "static/js/2.935b250f.chunk.js": "/gutwenger/static/js/2.935b250f.chunk.js",
+    "static/js/2.935b250f.chunk.js.map": "/gutwenger/static/js/2.935b250f.chunk.js.map",
+    "index.html": "/gutwenger/index.html",
+    "static/css/main.6fe92920.chunk.css.map": "/gutwenger/static/css/main.6fe92920.chunk.css.map",
+    "static/js/2.935b250f.chunk.js.LICENSE.txt": "/gutwenger/static/js/2.935b250f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/gutwenger/static/media/IMG_6748.68c9c8f2.JPG",
+    "static/media/gut2commerce.ad365293.gif": "/gutwenger/static/media/gut2commerce.ad365293.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.34ea4ddd.js",
+    "static/js/runtime-main.b6be9e7b.js",
     "static/js/2.935b250f.chunk.js",
-    "static/css/main.52983c03.chunk.css",
-    "static/js/main.ab102ae6.chunk.js"
+    "static/css/main.6fe92920.chunk.css",
+    "static/js/main.c4260ee3.chunk.js"
   ]
 }
