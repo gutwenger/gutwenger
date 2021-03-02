@@ -4,7 +4,7 @@ import { usePage } from "../../contexts/PageContext";
 const ProjectCard = ({ data: { name, stacks, descriptions, image, github, link } }) => {
     
     const [display, setDisplay] = useState(true);
-    const { changeDimensions } = usePage()
+    const { changeDimensions } = usePage();
 
     const STACK_CLASS_STANDARD = "projectCard__stack__p";
     const STACK_WEB = `${STACK_CLASS_STANDARD} ${STACK_CLASS_STANDARD}--web`;
@@ -70,17 +70,23 @@ const ProjectCard = ({ data: { name, stacks, descriptions, image, github, link }
         </>
     )
 
+    let header = (
+        <h2 className="projectCard__h2">
+            <div className="projectCard__h2__btngrp">
+                <button className="projectCard__h2__btn" disabled></button>
+                <button className="projectCard__h2__btn projectCard__h2__btn__shrink" onClick={()=>handleClick()}><i className="projectCard__h2__btn__icon fas fa-minus"></i></button>
+                <button className="projectCard__h2__btn" disabled></button>
+            </div>
+            <i className="projectCard__h2__icon fas fa-folder"></i>
+            {name}
+        </h2>
+    )
+
+    let showHeader = false;
+
     return (
         <div className="projectCard">
-            <h2 className="projectCard__h2">
-                <div className="projectCard__h2__btngrp">
-                    <button className="projectCard__h2__btn" disabled></button>
-                    <button className="projectCard__h2__btn projectCard__h2__btn__shrink" onClick={()=>handleClick()}><i className="projectCard__h2__btn__icon fas fa-minus"></i></button>
-                    <button className="projectCard__h2__btn" disabled></button>
-                </div>
-                <i className="projectCard__h2__icon fas fa-folder"></i>
-                {name}
-            </h2>
+            { showHeader && header }
             {display && content}
         </div>
     )

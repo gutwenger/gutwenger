@@ -306,6 +306,7 @@
   max-width: 1100px;
   margin: auto;
   background-color: transparent;
+  -webkit-backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
 }
@@ -314,7 +315,6 @@
   margin-bottom: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #de369d;
   font-size: 25px;
   font-weight: 300;
   color: #de369d;
@@ -426,12 +426,15 @@
   height: fit-content;
   width: 100%;
   color: #de369d;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center;
 }
 .projects .projectCardsCon .projectCard {
   box-sizing: border-box;
-  height: fit-content;
+  height: 100%;
   width: 100%;
-  margin: 15px auto;
   border-radius: 5px;
   border: 1px solid #22222250;
   backdrop-filter: blur(0.5px);
@@ -506,6 +509,7 @@
 .projects .projectCardsCon .projectCard .projectCard__img {
   box-sizing: border-box;
   width: 100%;
+  border-radius: 3.8px 3.8px 0 0;
 }
 .projects .projectCardsCon .projectCard .projectCard__descriptions {
   box-sizing: border-box;
@@ -610,6 +614,33 @@
 .projects .projectCardsCon .projectCard .projectCard__btngrp .projectCard__btn:hover {
   background-color: #de369d;
   color: white;
+}
+.projects .projectCardsCon .projectMore {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 50px 0;
+  border-radius: 5px;
+  background-color: #de369d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects .projectCardsCon .projectMore .projectMore__i {
+  font-size: 75px;
+  margin-bottom: 20px;
+}
+.projects .projectCardsCon .projectMore .projectMore__h2 {
+  font-size: 65px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+.projects .projectCardsCon .projectMore .projectMore__p {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .about {
@@ -1215,6 +1246,12 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .projects .projectCardsCon {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 @media only screen and (max-width: 500px) {
   .footer .footer__con {
     display: flex;
@@ -1228,7 +1265,7 @@
 }
 @keyframes fall {
   100% {
-    transform: rotate("79deg");
+    transform: rotate("239deg");
     margin-top: 1000px;
   }
 }
