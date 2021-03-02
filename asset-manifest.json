@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gutwenger/static/css/main.6fe92920.chunk.css",
-    "main.js": "/gutwenger/static/js/main.2a48edfe.chunk.js",
-    "main.js.map": "/gutwenger/static/js/main.2a48edfe.chunk.js.map",
+    "main.css": "/gutwenger/static/css/main.7d9437a5.chunk.css",
+    "main.js": "/gutwenger/static/js/main.eb7efaf4.chunk.js",
+    "main.js.map": "/gutwenger/static/js/main.eb7efaf4.chunk.js.map",
     "runtime-main.js": "/gutwenger/static/js/runtime-main.b6be9e7b.js",
     "runtime-main.js.map": "/gutwenger/static/js/runtime-main.b6be9e7b.js.map",
     "static/js/2.935b250f.chunk.js": "/gutwenger/static/js/2.935b250f.chunk.js",
     "static/js/2.935b250f.chunk.js.map": "/gutwenger/static/js/2.935b250f.chunk.js.map",
     "index.html": "/gutwenger/index.html",
-    "static/css/main.6fe92920.chunk.css.map": "/gutwenger/static/css/main.6fe92920.chunk.css.map",
+    "static/css/main.7d9437a5.chunk.css.map": "/gutwenger/static/css/main.7d9437a5.chunk.css.map",
     "static/js/2.935b250f.chunk.js.LICENSE.txt": "/gutwenger/static/js/2.935b250f.chunk.js.LICENSE.txt",
     "static/media/Fremont's CV.11e825ab.pdf": "/gutwenger/static/media/Fremont's CV.11e825ab.pdf",
     "static/media/App.css": "/gutwenger/static/media/IMG_6748.68c9c8f2.JPG",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.b6be9e7b.js",
     "static/js/2.935b250f.chunk.js",
-    "static/css/main.6fe92920.chunk.css",
-    "static/js/main.2a48edfe.chunk.js"
+    "static/css/main.7d9437a5.chunk.css",
+    "static/js/main.eb7efaf4.chunk.js"
   ]
 }
