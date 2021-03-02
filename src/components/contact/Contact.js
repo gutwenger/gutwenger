@@ -23,7 +23,8 @@ const Contact = ({ mainConRef }) => {
                 <br />
                 <p>Name: ${ name }</p>
                 <p>Email: ${ email }</p>
-                <p>Message: ${ message }</p>
+                <p>Message:</p>
+                <p>${ message }</p>
                 <br />
                 <br />
                 <p>Best,</p>
