@@ -116,6 +116,30 @@ export const projectData = [
             }
     },
     {
+        name: "Gut2Weather",
+        stacks: ["HTML", "CSS", "Sass", "JavaScript", "React", "Python", "Django"],
+        github: "https://github.com/gutwenger/gut2weather",
+        link: "https://gutwenger.github.io/gut2weather/",
+        descriptions: [
+            {
+                type: "p",
+                content: "This is a single-page weather app developed using React and Django."
+            },
+            {
+                type: "p",
+                content: "This app utilised OpenWeather API for live data."
+            },
+            {
+                type: "p",
+                content: "City data used to call API are stored in a seperate database."
+            },
+        ],
+        image: {
+                type: "desktop",
+                src: "gut2weather.gif",
+            }
+    },
+    {
         name: "g2Social",
         stacks: ["HTML", "CSS", "Sass", "JavaScript", "React", "Node", "Express", "MongoDB", "Mobile Responsive"],
         github: "https://github.com/gutwenger/g2social",
