@@ -1,4 +1,5 @@
 import React from 'react';
+import CV_Fremont_Cheng from "../../assets/cv/Fremont's CV.pdf";
 
 import { CVContent } from "../../data/CVContent";
 import CVCard from "./CVCard";
@@ -14,6 +15,11 @@ const CVHeader = ({ name, contacts }) => {
 }
 
 const CV = ({ mainConRef }) => {
+
+    function handleDownloadCV() {
+        window.open(CV_Fremont_Cheng);
+    }
+
     return (
         <div className="cv" ref={mainConRef}>
             <CVHeader 
@@ -58,7 +64,7 @@ const CV = ({ mainConRef }) => {
                 items={CVContent.availability}
             />
             <div className="cv__download">
-                <button className="cv__download__btn">
+                <button className="cv__download__btn" onClick={()=>handleDownloadCV()}>
                     <i className="cv__download__btn__i fas fa-file-pdf"></i>
                     <p className="cv__download__btn__p">Download</p>
                 </button>

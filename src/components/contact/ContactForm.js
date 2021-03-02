@@ -1,4 +1,5 @@
 import React from 'react'
+import LoadingSmall from '../loading/LoadingSmall'
 
 const ContactFormGrp = ({ type, label, name }) => {
 
@@ -33,14 +34,23 @@ const ContactFormGrp = ({ type, label, name }) => {
     )
 }
 
-const ContactForm = () => {
+const ContactForm = ({ sendEmail, isSending }) => {
 
     function handleSubmit(event) {
         event.preventDefault();
-        console.log(event.target.content.value);
+        const FORM = event.target;
+        sendEmail({
+            name: FORM.name.value,
+            email: FORM.email.value,
+            message: FORM.message.value
+        })
+
+        FORM.name.value = '';
+        FORM.email.value = '';
+        FORM.message.value = '';
     }
 
-    return (
+    let display = (
         <form className="contactForm" onSubmit={(event)=>handleSubmit(event)}>
             <h3 className="contactForm__h3">
                 Send me a Message!
@@ -60,12 +70,14 @@ const ContactForm = () => {
             <ContactFormGrp
                 key={`contactfomgrp-content`}
                 type="textarea"
-                label="Content"
-                name="content"
+                label="MESSAGE"
+                name="message"
             />
             <button type="submit" className="contactFormSubmit">SEND</button>
         </form>
     )
+
+    return isSending ? <LoadingSmall key="loading" message="Your message is reaching Fremont!" /> : display;
 }
 
 export default ContactForm;

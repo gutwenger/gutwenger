@@ -32,10 +32,10 @@ export const CVContent = {
                 "Guardian Property Management Limited",
             ],
             contents: [
-                "Supervised onsite management, security, maintenance and cleaning personnel.",
-                "Formulated fire management procedures and taxi queuing procedures in the development stage.",
-                "Reviewed and enhanced established procedures for security and operations arrangements, fire handling and contingencies.",
+                "Oversaw and supervised daily operations of over 200 personnels.",
+                "Reviewed standard operating procedures for security and operations arrangements, fire handling and contingencies.",
                 "Monitored staff performance, investigated complaints, identified risks and improvement needs and initiated improvement measures.",
+                "Designed and orgainised regular drills to familiarise staff with standard operating procedures.",
                 "Designed and provided trainings to onsite staff and workshops to government representatives and publics for operating and contingency procedures."
             ],
             achievements: [
@@ -52,7 +52,7 @@ export const CVContent = {
             ],
             contents: [
                 "Oversaw and supervised daily operations.",
-                "Handled and investigated complaints from owers and tenents.",
+                "Handled and investigated complaints from owners and tenents.",
                 "Organised and attended meetings with Incorporated Owners.",
                 "Prepared tender documents and assisted in tendering processes.",
                 "Provided administrative support to the site management team."
