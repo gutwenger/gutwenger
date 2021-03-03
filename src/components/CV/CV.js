@@ -1,5 +1,5 @@
 import React from 'react';
-import CV_Fremont_Cheng from "../../assets/cv/Fremont's CV.pdf";
+import CV_Fremont_Cheng from "../../assets/cv/CV_Fremont_Cheng.pdf";
 
 import { CVContent } from "../../data/CVContent";
 import CVCard from "./CVCard";
