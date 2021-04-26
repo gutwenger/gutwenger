@@ -20,7 +20,7 @@ export const ABOUT_CONTENT = [
         title: "What were the difficulties and how I overcame them?",
         contents: [
             "The greatest challenge for me was that computer logic was very hard to understand at the beginning for a person like me who had no maths or computer science background.",
-            "So I went through some diffult times trying to figure out how to do the simpliest commands just to print out a 5x5 # grid on the console.",
+            "So I went through some difficult times trying to figure out how to do the simpliest commands just to print out a 5x5 # grid on the console.",
             `Lucky for me, I found out that many people recommended a course named "CS50X" provided by Harvard University, and it was precisely because of this course that my coding journey finally began.`,
             "Moreover, thanks to this course, the complex programming logics and theories suddenly became more comprehensible for me and through the completion of their difficult problem sets (especially Tideman) I learnt not only how to code in C or Python but also how to learn a new programming language, and this is the most important thing one can take from this course."
         ]
