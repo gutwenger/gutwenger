@@ -1,4 +1,4 @@
-Hi, I’m Fremont 👋
+Hi, I’m Lam 👋
 
 I’m a Software Developer based in Reading, UK, with over three years of commercial experience developing and maintaining production fintech mobile applications.
 
@@ -28,5 +28,5 @@ I believe software should be simple, maintainable and built with long-term susta
 
 Connect with me
 
-* LinkedIn: ([My LinkedIn](https://www.linkedin.com/in/fremontcheng/))
+* LinkedIn: [My LinkedIn](https://www.linkedin.com/in/fremontcheng/)
 * Portfolio: (coming soon)
