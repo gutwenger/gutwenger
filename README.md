@@ -28,5 +28,5 @@ I believe software should be simple, maintainable and built with long-term susta
 
 Connect with me
 
-* LinkedIn: (add your LinkedIn URL)
+* LinkedIn: ([My LinkedIn](https://www.linkedin.com/in/fremontcheng/))
 * Portfolio: (coming soon)
