@@ -1,32 +1,44 @@
-Hi, I’m Lam 👋
+### Hi, I’m Lam
 
-I’m a Software Developer based in Reading, UK, with over three years of commercial experience developing and maintaining production fintech mobile applications.
+### Flutter Developer · Mobile Software Engineer · Reading, UK
 
-My primary expertise is Flutter development, where I build and maintain scalable, reliable mobile applications using modern software engineering practices. I also have experience contributing to React-based internal web applications and make extensive use of AI to improve engineering productivity and accelerate software delivery.
+I’m a software engineer with 4+ years of commercial Flutter experience, building and maintaining production mobile applications in the fintech sector.
 
-What I work with
+My work focuses on designing maintainable mobile architectures, modelling complex application states and delivering customer-facing features that integrate reliably with backend services.
 
-* Flutter & Dart
-* Riverpod
-* Clean Architecture
-* REST APIs
-* Drift (SQLite)
-* React
-* Git
-* AI-assisted Software Development
+### Engineering experience
 
-What I’m currently focused on
+I’ve worked on production features involving:
 
-* Building and maintaining production Flutter applications
-* Expanding my frontend engineering skills with React
-* Writing clean, maintainable and scalable software
-* Continuously improving my software engineering skills
+* Complex KYC and identity-verification journeys
+* Payments and cash-in/cash-out workflows
+* Card lifecycle and renewal flows
+* Transactional buy/sell journeys with live pricing
+* State-driven navigation and complex asynchronous workflows
+* Refactoring and improving established Flutter codebases
+* Production debugging, performance and memory investigation
+* Code reviews and mentoring junior developers
 
-Engineering Philosophy
+### Core technologies
 
-I believe software should be simple, maintainable and built with long-term sustainability in mind. I enjoy understanding complex systems, improving existing codebases and collaborating with cross-functional teams to deliver high-quality products.
+- Mobile: Flutter · Dart
+- State Management: Riverpod
+- Architecture: Clean Architecture · MVVM · State-driven architecture
+- Data: Firebase · Firestore · Drift · SQLite
+- APIs & Integrations: REST APIs · Google Maps
+- Testing: Unit · Integration / E2E
+- Modelling: Freezed
 
-Connect with me
+I also have experience contributing to React applications and am continuing to develop my frontend engineering skills alongside mobile development.
 
-* LinkedIn: [My LinkedIn](https://www.linkedin.com/in/fremontcheng/)
-* Portfolio: (coming soon)
+### How I approach engineering
+
+I favour clear separation of concerns, explicit state modelling and architectures that remain understandable as product requirements grow.
+
+I particularly enjoy working through complex production problems: simplifying existing code, designing reliable state transitions and finding pragmatic abstractions without over-engineering.
+
+### Currently
+
+I’m based in Reading, UK and open to Flutter Developer, Mobile Software Engineer and related frontend engineering opportunities in the UK.
+
+Please feel free to visit my [LinkedIn](https://www.linkedin.com/in/fremontcheng/)
