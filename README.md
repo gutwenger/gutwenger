@@ -41,4 +41,4 @@ I particularly enjoy working through complex production problems: simplifying ex
 
 I’m based in Reading, UK and open to Flutter Developer, Mobile Software Engineer and related frontend engineering opportunities in the UK.
 
-Please feel free to visit my [LinkedIn](https://www.linkedin.com/in/fremontcheng/)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/fremontcheng/)
